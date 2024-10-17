@@ -1,0 +1,34 @@
+/*'santa-fe': {
+        '50': '#f9f5f1',
+        '100': '#eee1d7',
+        '200': '#dcc1ab',
+        '300': '#c99f80',
+        '400': '#bd8462',
+        '500': '#aa664b',
+        '600': '#9c5443',
+        '700': '#82423b',
+        '800': '#6c3634',
+        '900': '#5a2e2d',
+        '950': '#321616',
+    }, Colores que he utilizado para la UI*/
+
+.right-panel {
+-fx-background-color: #eee1d7;
+}
+
+.btn {
+-fx-background-color: #dcc1ab;
+}
+
+.btn:hover {
+-fx-background-color: #c99f80;
+}
+
+.table {
+-fx-background-color: #f9f5f1;
+}
+
+.table-row {
+-fx-alignment: center;
+-fx-background-color: #dcc1ab;
+}

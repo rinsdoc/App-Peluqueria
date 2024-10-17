@@ -1,0 +1,70 @@
+/*'santa-fe': {
+        '50': '#f9f5f1',
+        '100': '#eee1d7',
+        '200': '#dcc1ab',
+        '300': '#c99f80',
+        '400': '#bd8462',
+        '500': '#aa664b',
+        '600': '#9c5443',
+        '700': '#82423b',
+        '800': '#6c3634',
+        '900': '#5a2e2d',
+        '950': '#321616',
+    }, Colores que he utilizado para la UI*/
+
+
+.top-form {
+-fx-background-color: #efefef;
+-fx-border-color: #82423b;
+-fx-border-width: 0px 0px 1px 0px;
+}
+
+.close{
+-fx-background-color: transparent;
+-fx-cursor: hand;
+}
+
+.close:hover{
+-fx-background-color: #c99f80;
+}
+
+.minimize{
+-fx-background-color: transparent;
+-fx-cursor: hand;
+}
+
+.minimize:hover{
+-fx-background-color: #eee1d7;
+}
+
+.nav-form {
+-fx-background-color: linear-gradient(to right, #dcc1ab, #9c5443);
+}
+
+.nav-btn {
+-fx-background-color: transparent;
+-fx-cursor: hand;
+-fx-font-size: 18px;
+-fx-font-family: "Arial";
+-fx-text-fill: #fff;
+-fx-alignment: center;
+}
+
+.nav-btn:hover {
+-fx-background-color: #c99f80;
+}
+
+.logout{
+-fx-background-color: #f9f5f1;
+-fx-cursor: hand;
+-fx-background-radius: 5px;
+-fx-alignment: center;
+}
+
+.logout:hover{
+-fx-background-color: #eee1d7;
+}
+
+.shadow {
+-fx-effect: dropshadow(three-pass-box, #f9f5f1, 10, 0, 0, 0);
+}
